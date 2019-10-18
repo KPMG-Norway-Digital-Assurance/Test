@@ -1,6 +1,0 @@
-
-BACKUP DATABASE [xxxxxx] 
-TO  DISK = N'\\nooslzfs01.no.kworld.kpmg.com\kaaparchive$\backup\2018\DA\xxxxx.bak' 
-WITH NOFORMAT, INIT,  NAME = N'xxxxxxxxxxx', 
-SKIP, NOREWIND, NOUNLOAD, COMPRESSION,  STATS = 10
-GO
